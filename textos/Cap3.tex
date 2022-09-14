@@ -13,18 +13,18 @@
     \subsection{Técnicas}
     
     \hspace{1cm}
-    Realizar coleta de dados da memória volátil não é uma tarefa tão simples. Deve-se ter em mente qual problema está sendo tratado e quais equipagens compõem o corpo de investigação. Em concordância com \citeonline{ligh2014}, adotaremos o diagrama apresentado pela figura \ref{diagrama_volatile} para decidir como coletar os dados desejados.
+    Realizar coleta de dados da memória volátil não é uma tarefa tão simples. Deve-se ter em mente qual problema está sendo tratado e quais equipagens compõem o corpo de investigação. Em concordância com \citeonline{ligh2014}, adotaremos o diagrama apresentado pela figura \ref{diagrama_volatile}, para decidir como coletar os dados desejados.
     
     \begin{figure}[H]
     	\centering
     	\caption{Diagrama de decisões para coletar dados em memória volátil}
     	\includegraphics[scale=0.7]{img_volatile_diag}
-    	\caption*{Fonte: \citeonline{ligh2014}}
+    	\caption*{Fonte: \citeonline{ligh2014}.}
     	\label{diagrama_volatile}
     \end{figure}
     
     \hspace{1cm}
-    Não detalharemos todos os casos que o diagrama busca atender. Focaremos nas decisões tomadas por um perito que queira coletar a memória de um computador, sem ativar mecanismos anti-forenses adotados por \textit{rootkits} que possam estar presentes no aparelho \cite{ligh2014}.
+    Não detalharemos todos os casos que o diagrama busca atender. Focaremos nas decisões tomadas por um perito que queira coletar a memória de um computador, sem ativar mecanismos antiforenses adotados por \textit{rootkits} que possam estar no aparelho \cite{ligh2014}.
     
     \vspace{4mm}
     
@@ -34,12 +34,12 @@
     \vspace{4mm}
     
     \hspace{1cm}
-    Para examinar os elementos coletados, devemos identificar qual sistema operacional estava em funcionamento. Pois, cada sistema implementa estruturas de dados diferentes para manutenção de suas aplicações. Exemplo disso, o sistema operacional Windows possui um formato de arquivos executáveis chamado PE (\textit{portable executable}). Enquanto isso, executáveis do Linux são mantidos no formato ELF.
+    Para examinar os elementos coletados, devemos identificar qual sistema operacional estava em funcionamento, pois, cada sistema implementa estruturas de dados diferentes para manutenção de suas aplicações. Exemplo disso: o sistema operacional Windows tem um formato de arquivos executáveis chamado PE (\textit{portable executable}). Enquanto isso, executáveis do Linux são mantidos no formato ELF.
    
     \subsection{Ferramentas}
 
     \hspace{1cm}
-    Para examinar artefatos digitais, podemos usar a ferramenta de código aberto Volatility. Ela suporta amostras de memória volátil de sistemas operacionais como Windows, Linux, Mac OS e Android (32 bits) \cite{ligh2014}. Além disso, a ferramenta permite que pesquisadores criem \textit{plugins} que auxiliem no exame de recursos do sistema até então não suportados. Como fizeram \citeonline{case2015}, ao criarem diversos \textit{plugins} para exame especializado de diferentes estruturas internas do sistema operacional Mac OS.
+    Para examinar artefatos digitais, podemos usar a ferramenta de código aberto Volatility. Ela suporta amostras de memória volátil de sistemas operacionais como Windows, Linux, Mac OS e Android (32 bits) \cite{ligh2014}. Além disso, esta ferramenta permite que pesquisadores criem \textit{plugins} que auxiliem no exame de recursos do sistema até então não suportados, como fizeram \citeonline{case2015}, ao criar diversos \textit{plugins} para exame especializado de diferentes estruturas internas do sistema operacional Mac OS.
 
     \subsection{Exercícios}
     

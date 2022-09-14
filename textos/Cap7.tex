@@ -8,22 +8,22 @@
     \vspace{4mm}
     
     \hspace{1cm}
-    Para a execução eficiente desses artifícios, o profissional precisa ter conhecimento aplicado em ciência da computação. Porquanto, para conseguir compreender a maneira conforme um programa é executado num computador, o experto deve utilizar da análise crítica desenvolvida no estudo de disciplinas como Sistemas Operacionais, Arquitetura e Organização de Computadores, Redes, entre outras. Ainda assim, existem diversas ferramentas que auxiliam o técnico a completar o exame de \textit{malwares}. Afinal, os diferentes níveis de abstrações, oferecidos pelos utensílios, podem acelerar este processo na totalidade.
+    Para a execução eficiente desses artifícios, o profissional precisa ter conhecimento aplicado em Ciência da Computação, pois, para conseguir compreender a maneira conforme um programa é executado num computador, o experto deve utilizar-se da análise crítica desenvolvida no estudo de disciplinas como Sistemas Operacionais, Arquitetura e Organização de Computadores, Redes, entre outras. Ainda assim, existem diversas ferramentas que auxiliam o técnico a completar o exame de \textit{malwares}. Afinal, os diferentes níveis de abstrações oferecidos pelos utensílios podem acelerar esse processo na totalidade.
     
     \subsection{Técnicas}
     
     \hspace{1cm}
-    O analista de \textit{malware} dispõe de três técnicas para tentar classificar programas maliciosos conforme os comportamentos analisados. A primeira técnica chama-se Análise Dinâmica. Ela é usada quando o profissional deseja entender o que acontece ao passo que um dado programa nocivo executa. O segundo esquema é denominado Análise Estática. Nesse caso, o analista utiliza ferramentas específicas para obter informações comportamentais de um programa, sem executá-lo. Uma vez com esses dados em mãos, o perito pode usufruir deles, numa possível heurística dinâmica. A última artimanha é conhecida como Análise Híbrida, cujo diferencial é juntar a Análise Estática com a Dinâmica \cite{monteiro2018}.
+    O analista de \textit{malware} dispõe de três técnicas para tentar classificar programas maliciosos, conforme os comportamentos analisados. A primeira técnica chama-se Análise Dinâmica. Ela é usada, quando o profissional deseja entender o que acontece ao passo que um dado programa nocivo executa. O segundo esquema é denominado Análise Estática. Nesse caso, o analista utiliza ferramentas específicas para obter informações comportamentais de um programa, sem executá-lo. Uma vez com esses dados em mãos, o perito pode usufruir deles, numa possível heurística dinâmica. A última estratégia é conhecida como Análise Híbrida, cujo diferencial é juntar a Análise Estática com a Dinâmica \cite{monteiro2018}.
         
     \subsection{Ferramentas}
     
     \hspace{1cm}
-    Em concordância com \citeonline{monteiro2018}, categorizaremos algumas ferramentas que usualmente complementam a reprodução das técnicas dispostas. Na análise estática, é comum operar programas como \textit{OllyDBG}, \textit{IDA Pro}, \textit{WinDBG} e \textit{x64dbg}. Todos eles retornam valores em linguagem de máquina que podem ser utilizados em uma engenharia reversa no futuro. Para se ter uma prévia do que o trapaceiro busca atingir na máquina da vítima, é usado um virtualizador de máquinas como \textit{VMWare} ou \textit{Oracle VirtualBox}, para executar uma amostra. Caso o examinador deseje usar ambas as técnicas, é possível manusear a suíte \textit{SysInternals} em conjunto com as demais equipagens para obter resultados satisfatórios.
+    Em concordância com \citeonline{monteiro2018}, categorizaremos algumas ferramentas que usualmente complementam a reprodução das técnicas dispostas. Na análise estática, é comum operar programas como \textit{OllyDBG}, \textit{IDA Pro}, \textit{WinDBG} e \textit{x64dbg}. Todos eles retornam valores em linguagem de máquina que podem ser utilizados em uma engenharia reversa no futuro. Para conseguir uma prévia do que o trapaceiro busca atingir na máquina da vítima, é usado um virtualizador de máquinas como \textit{VMWare} ou \textit{Oracle VirtualBox}, para executar uma amostra. Caso o examinador deseje usar ambas as técnicas, é possível manusear a suíte \textit{SysInternals}, em conjunto com as demais equipagens, para obter resultados satisfatórios.
     
     \vspace{4mm}
 
     \hspace{1cm}
-    Por outro lado, existem plataformas na \textit{Web} que podem auxiliar peritos menos experientes nessa subárea, como nos casos das ferramentas \textit{Cuckoo Sandbox} e \textit{Falcon Sandbox}. Ambas são aplicações transparentes que permitem ao usuário o envio de uma amostra de \textit{malware} para análise automatizada. Esta, então, é executada em ambiente virtual e diversas informações são coletadas em tempo de execução, para que o perito possa analisar seu comportamento.
+    Por outro lado, existem plataformas na \textit{Web} que podem auxiliar peritos menos experientes nessa subárea, como nos casos das ferramentas \textit{Cuckoo Sandbox} e \textit{Falcon Sandbox}. Ambas são aplicações transparentes que permitem ao usuário o envio de uma amostra de \textit{malware} para análise automatizada. Esta, então, é executada em ambiente virtual, e diversas informações são coletadas em tempo de execução, para que o perito possa analisar seu comportamento.
 
     \subsection{Exercícios}
     
@@ -31,8 +31,8 @@
         \begin{enumerate}
            \item Para que serve a Análise Dinâmica ?
            \item Para que serve a Análise Estática ?
-           \item Qual ferramenta, dentre as apresentadas neste capítulo, um analista de malware deve usar para ver quais instruções são executadas em dado momento por um programa ?
-           \item Escolha um arquivo executável e submeta para a ferramenta Falcon Sandbox (acesse \url{https://www.hybrid-analysis.com/}). Relate quais informações a ferramenta conseguiu produzir ao fim de sua análise automatizada.
+           \item Qual ferramenta, dentre as apresentadas neste capítulo, um analista de malware deve usar para ver quais instruções são executadas, em dado momento, por um programa ?
+           \item Escolha um arquivo executável e submeta para a ferramenta Falcon Sandbox (acesse \url{https://www.hybrid-analysis.com/}). Relate quais informações a ferramenta conseguiu produzir, ao fim de sua análise automatizada.
         \end{enumerate}
     \end{example}
 

@@ -1,4 +1,4 @@
-# Introdução  Forense Digital e Resposta a Incidentes
+# Introdução à Forense Digital e Resposta a Incidentes
 
 Este livro digital foi produzido no projeto de iniciação científica _Forense Digital e Resposta a Incidentes: Estudo e Elaboração de Material Didático_, realizado no IFMG e fomentado pelo CNPq.
 
